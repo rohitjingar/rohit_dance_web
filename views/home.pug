@@ -1,0 +1,43 @@
+extends base.pug
+
+block scripts  
+  script(src='/static/index.js')
+block style 
+  style
+      include ../static/style.css
+block content
+       
+    section#Introsection 
+       li #[a Welcome to Rohit's dance Academy] 
+    section#missionSection 
+       h2 Our Mission 
+       div.card
+        h3 Dance Perfection
+        div.card-box 
+            div.card-img
+              img(src="/static/img/2d.png")
+            div.card-content 
+              p This is best dance academy of the universe
+
+       div.card
+        h3 Dance The Way You Like
+        div.card-box 
+            div.card-img
+              img(src="/static/img/ppp.png" )
+            div.card-content 
+              p This is best dance academy of the universe
+       div.card
+        h3 Expert Teaching
+        div.card-box 
+            div.card-img
+              img(src="/static/img/4.png")
+            div.card-content 
+              p This is best dance academy of the universe
+    section#sponsorsSection 
+        h2 Our Sponsors 
+        div#sponsors
+           img(src="/static/img/HP-Logo.png", alt="Hp Logo")
+           img(src="/static/img/becel.png", alt="becel Logo")
+           img(src="/static/img/Ms logo.png", alt="Ms Logo")
+           img(src="/static/img/samsunglogo.png", alt="samsunglogo")
+    
